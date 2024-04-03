@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="145dp"
+    android:gravity="bottom"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="Descripcion"
+        android:layout_marginLeft="8dp"
+        android:paddingTop="4sp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8sp"
+        android:text="Titulo"
+        android:layout_marginLeft="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtNomina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub titulo"
+        android:layout_marginLeft="8dp"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txtVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo"
+        android:layout_marginLeft="8dp"
+        android:textSize="10sp" />
+</LinearLayout>
